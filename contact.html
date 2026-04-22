@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<!-- comment
+     Name: Kaoru Sato Dugas
+     File name: portfolio.html
+     Date: 1/29 2025
+-->
+     <html lang="en">
+        <head>
+            <title>Kaoru Sato Dugas</title>
+            <meta charset="utf-8">
+           <link rel="stylesheet" href="styles.css">
+           <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+        </head>
+        <body>
+            <header>
+                <a href="index.html">
+                <img class="logo" src="images/New-Kaoru-Design-Logo-03.png" alt="Company Logo">
+                </a>
+                <nav>
+                 <ul class="menu">
+                    <li><a href="index.html"><i class="fa-regular fa-house"></i>　Home　</a>&#10072;</li>
+                    <li><a href="about.html"><i class="fa-regular fa-circle-info"></i>　About　</a>&#10072;</li>
+                    <li><a href="case-study.html"><i class="fa-regular fa-palette"></i>　Case Studies　</a>&#10072;</li>
+                    <li><a href="resume.html"><i class="fa-solid fa-file"></i>　Resume　</a>&#10072;</li>
+                    <li><a href="contact.html"><i class="fa-solid fa-envelope"></i>　Contact　</a>&#10072;</li>
+                    <li><a href="https://www.linkedin.com/in/kaoru-sato-dugas-526174352/" target="_blank"><i class="fa-brands fa-linkedin"></i></a></li>
+                 </ul>
+
+                </nav>
+            </header>
+            <main>
+                <div class="title">
+                <h1>Contact Me</h1>
+                <p>Feel free to say hello—I'm always open to new connections.</p>
+                </div>
+                <div class="box">
+                <div class="contact-form-container">
+                    <form  action="https://api.staticforms.xyz/submit" method="POST" id="contactForm">
+                        <input type="hidden" name="apiKey" value="sf_2j06jbh43d68hdjci75ifh4m" target="_blank">
+                        <div class="form-group">
+                           <label for="name">Name</label>
+                           <input type="name" id="name" name="name" placeholder="Your Name" required>
+                           <span class="error-message" id="nameError"></span>
+                        </div>
+                        <div class="form-group">
+                           <label for="email">Email</label>
+                           <input type="email" id="email" name="email" placeholder="Your Email" required>
+                           <span class="error-message" id="emailError"></span>
+                        </div>
+                        <div class="form-group">
+                           <label for="message">Message</label>
+                           <textarea id="message" name="message" placeholder="Your Message" rows="5" required></textarea>
+                           <span class="error-message" id="messageError"></span>
+                        </div>
+                        <button type="submit" class="submit-button" target="_blank">Send Message</button>
+                    </form>
+                </div>
+                </div>
+                <!--<div class="box">
+                     <p>Wake Technical Community College - RTP Campus</p>
+                     <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d12345.837175666471!2d-78.85080698650066!3d35.853059854356246!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89acee205a0ad9a3%3A0x12679263f9dfb169!2sWake%20Technical%20Community%20College%20-%20RTP%20Campus!5e1!3m2!1sen!2sus!4v1738224518271!5m2!1sen!2sus" allowfullscreen class="map"></iframe>
+                </div>-->
+            </main>
+               <footer>
+                <div class="border"></div>
+                 <div class="social">
+                     <a href="mailto:ksato@my.waketech.edu" class="icons"><i class="fa-solid fa-envelope"></i>
+                     <a href="https://www.linkedin.com/in/kaoru-sato-dugas-526174352/" class="icons"><i class="fa-brands fa-linkedin"></i>
+                </div>
+                <p>© Copyright 2026. All Rights Reserved.</p>
+            </footer>
+        </body>
+    </html>
